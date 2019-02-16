@@ -24,11 +24,16 @@ chmod +x /usr/local/bin/docker-compose
 ## pull line chatbot from github
 cd ~
 git clone https://github.com/uuboyscy/NobodyChatbot.git
+git clone https://github.com/BingHongLi/line_chat_bot_tutorial.git
 sleep 5
 # change owner
 chown -R $username NobodyChatbot/
 chown -R $username /root
 chmod 777 -R NobodyChatbot
+
+chown -R $username line_chat_bot_tutorial/
+chown -R $username /root
+chmod 777 -R line_chat_bot_tutorial
 
 echo "alias freemem=\"sudo sh -c 'echo 1 >/proc/sys/vm/drop_caches';sudo sh -c 'echo 2 >/proc/sys/vm/drop_caches';sudo sh -c 'echo 3 >/proc/sys/vm/drop_caches'\"" >> /etc/profile
 echo "alias chatbot-start='docker-compose -f /root/NobodyChatbot/docker-compose.yml up --build -d;sleep 3;\
