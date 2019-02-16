@@ -39,4 +39,4 @@ echo "alias freemem=\"sudo sh -c 'echo 1 >/proc/sys/vm/drop_caches';sudo sh -c '
 echo "alias chatbot-start='docker-compose -f /root/NobodyChatbot/docker-compose.yml up --build -d;sleep 3;\
   sh /root/NobodyChatbot/ngurl.sh'" >> /etc/profile
 echo "alias chatbot-stop='docker-compose -f /root/NobodyChatbot/docker-compose.yml down'" >> /etc/profile
-echo "alias ngrok-url='sh /root/NobodyChatbot/ngurl.sh'"
+echo "alias ngrok-url='sh /root/NobodyChatbot/ngurl.sh'" >> /etc/profile
