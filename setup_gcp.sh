@@ -8,6 +8,7 @@ yum -y install git wget
 yum install -y nano vim
 adduser $username
 usermod -a -G wheel $username
+echo "$username:$username" | chpasswd
 
 ## install docker
 curl -fsSL get.docker.com -o get-docker.sh
