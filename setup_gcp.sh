@@ -41,3 +41,5 @@ echo "alias chatbot-start='docker-compose -f /root/NobodyChatbot/docker-compose.
   sh /root/NobodyChatbot/ngurl.sh'" >> /etc/profile
 echo "alias chatbot-stop='docker-compose -f /root/NobodyChatbot/docker-compose.yml down'" >> /etc/profile
 echo "alias ngrok-url='sh /root/NobodyChatbot/ngurl.sh'" >> /etc/profile
+
+source /etc/profile
