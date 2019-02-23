@@ -26,6 +26,7 @@ chmod +x /usr/local/bin/docker-compose
 cd ~
 git clone https://github.com/uuboyscy/NobodyChatbot.git
 git clone https://github.com/BingHongLi/line_chat_bot_tutorial.git
+git clone https://github.com/uuboyscy/Chatbot_GCP.git
 sleep 5
 # change owner
 chown -R $username NobodyChatbot/
