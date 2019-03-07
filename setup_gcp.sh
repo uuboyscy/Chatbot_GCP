@@ -27,6 +27,7 @@ cd ~
 git clone https://github.com/uuboyscy/NobodyChatbot.git
 git clone https://github.com/BingHongLi/line_chat_bot_tutorial.git
 git clone https://github.com/uuboyscy/Chatbot_GCP.git
+git clone https://github.com/BingHongLi/fabric-appication-tuna-system.git
 sleep 5
 # change owner
 chown -R $username NobodyChatbot/
